@@ -11,7 +11,7 @@ Monday, 15 June 2026 — 111 Lampe Dr #200
 
 # Part 1: Basic Programming Concepts (45 min)
 
-## 🗳️ Warm-up Poll (3 min)
+## 🗳️ Warm-up Poll
 
 Raise your hand:
 
@@ -23,7 +23,7 @@ Raise your hand:
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-## 🤖 Activity: The Human Robot (10 min)
+## 🤖 Activity: The Human Robot 
 
 One instructor becomes a **robot**. The robot only does EXACTLY what you say — nothing more.
 
