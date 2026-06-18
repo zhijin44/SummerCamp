@@ -6,8 +6,6 @@ Thursday, 18 June 2026 — 111 Lampe Dr #200 · 11:00 – 11:45 AM
 
 > Goal: see that **ns-3 is one tool among many**. Different research questions need different simulators — packet-level, radio-wave-level, AI-native, 5G/O-RAN. We'll meet the big ones and *watch them in action*. 🔬
 
-> Format: short explanation → **predict / vote / match-the-tool** → discuss. Answers in ▸ click-to-reveal boxes. 🎥 = short video to play in class.
-
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## 🗳️ Warm-up (3 min)
@@ -55,17 +53,22 @@ Radio waves behave a lot like **light**:
 
 **Ray tracing** simulates this by shooting thousands of "rays" from a transmitter and following each bounce — the same technique that makes video-game lighting look real, applied to your Wi-Fi.
 
-### 🔦 Quick Demo (instructor, 1 min)
+### 🔦 Quick Demo (1 min)
 
 Shine a flashlight (phone torch) at a mirror, then at a wall, then through a water bottle. *That's ray tracing* — reflection, blocking, refraction. Now imagine doing it for millions of radio rays in a whole building. 🏢
 
 ![Indoor ray tracing: signal paths from a transmitter reflect off walls, pass weakly through glass, and are blocked by concrete — leaving a dead zone](figures/indoor-raytracing.png)
+*Figure 1. Indoor ray tracing — rays reflect, pass, and get blocked depending on material. Original illustration.*
 
-*Figure 1. Indoor ray tracing — rays reflect, pass, and get blocked depending on material. Original illustration. Real tool example: [Remcom — High-Fidelity Ray Tracing, Wireless InSite](https://www.remcom.com/wireless-insite-em-propagation-software/high-fidelity-ray-tracing) (ref [2]).*
+Real tool example: [Remcom — High-Fidelity Ray Tracing, Wireless InSite](https://www.remcom.com/wireless-insite-em-propagation-software/high-fidelity-ray-tracing) (ref [2]).
 
 > 🎥 **Watch (2 min):** [Wireless InSite — Indoor Propagation Analysis Tutorial (Remcom)](https://www.remcom.com/resources/video/wireless-insite-indoor-propagation-analysis-tutorial) — a real ray-tracing tool predicting indoor coverage.
 
 <br>
+
+
+![GemNet overview](figures/GemNet-overview.png)
+(ref [6])
 
 > 💬 **Predict (vote A/B):** A 5G signal hits a **glass office window**. Does more energy (A) bounce off, or (B) pass through, compared to a thick concrete wall?
 
@@ -156,7 +159,9 @@ Tools for the 3D/visual side: **Unreal Engine, Unity, NVIDIA Omniverse, Blender*
 
 ![Digital twin architecture: a physical network streams live sensor data to a digital twin, which sends predictions and control back, and lets you test what-if scenarios safely](figures/digital-twin.png)
 
-*Figure 3. Digital Twin — a live virtual copy of the real network: data flows up, predictions/control flow back. Original illustration. Reference architecture: [Network Digital Twin: Concepts & Reference Architecture (IETF NMRG)](https://datatracker.ietf.org/doc/draft-irtf-nmrg-network-digital-twin-arch/) (ref [4]).*
+*Figure 3. Digital Twin — a live virtual copy of the real network: data flows up, predictions/control flow back (ref [4]).*
+
+![Bi-level DT](figures/DT.png)
 
 > 💬 **Vote:** What's the difference between a **smart city** and a **digital twin**?
 
@@ -228,5 +233,6 @@ In pairs, match each research goal to the **best** tool. (Some need two!)
 3. J. Hoydis et al., "Sionna RT: Differentiable Ray Tracing for Radio Propagation Modeling," NVIDIA, 2023. [research.nvidia.com](https://research.nvidia.com/publication/2023-12_sionna-rt-differentiable-ray-tracing-radio-propagation-modeling) · [Technical report (arXiv)](https://arxiv.org/abs/2504.21719) · [docs](https://nvlabs.github.io/sionna/rt/index.html)
 4. IRTF NMRG, "Network Digital Twin: Concepts and Reference Architecture," IETF Internet-Draft. [datatracker.ietf.org](https://datatracker.ietf.org/doc/draft-irtf-nmrg-network-digital-twin-arch/)
 5. "Digital twin based DDPG reinforcement learning for sum-rate maximization of AI-UAV communications," *EURASIP Journal on Wireless Communications and Networking*, 2024 (open access). [Article](https://jwcn-eurasipjournals.springeropen.com/articles/10.1186/s13638-024-02386-0)
+6. Yang, Zhijin, et al. "GemNet: Analysis and Prediction of Building Materials for Optimizing Indoor Wireless Networks." ICC 2024-IEEE International Conference on Communications. IEEE, 2024.
 
 

@@ -5,7 +5,6 @@ Tuesday, 16 June 2026 — 111 Lampe Dr #200 · 1:15 – 2:15 PM
 > Goal: understand what **ns-3** is and why it matters, see how it's installed on Ubuntu (conceptually), then run **real ns-3 simulations in Google Colab** using yesterday's Python — and *see* networks drawn on screen.
 
 > Companion notebook: **`ns3_colab.ipynb`** (open it in Colab — File ▸ Upload notebook).
-> Format: explain → **you run / you predict / you change a number** → discuss.
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -140,7 +139,7 @@ We'll go together, but **you drive**. Help your neighbor — raise a hand if a c
 
 🗣️ **Share-out:** Each pair shows their favorite network and names a **real-life example** (home Wi-Fi? city cell towers? sensors in a farm? the internet backbone?).
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
 
 ## 🐛 If a Cell Breaks (troubleshooting)
 
@@ -166,4 +165,3 @@ Today you:
 
 So by end of camp you'll have run ns-3 **three ways**: Python in Colab (today), C++ on the Web Platform, and you'll *understand* the "real" Ubuntu install even if you never have to fight with it. 💪
 
-💡 *Optional tonight:* in the notebook, find the weirdest-looking network you can make by changing numbers. Bring it tomorrow!

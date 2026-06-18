@@ -5,7 +5,6 @@ Monday, 15 June 2026 — 111 Lampe Dr #200
 **Part 1 (10:00 – 10:45 AM):** Basic Programming Concepts <br>
 **Part 2 (2:45 – 4:00 PM):** Introduction to Python + Quiz
 
-> Format: short explanation → **you try it** → discuss. Almost every section has something for YOU to do. No experience needed!
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -222,7 +221,7 @@ Python is **dynamically typed** — no need to declare the type. Python figures 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-## Variables & print (10 min)
+## Variables & print
 
 ```python
 x = 5             # int
@@ -266,7 +265,7 @@ Quotes = text, no quotes = the variable. `+` on strings glues them together!
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-## Operators (10 min)
+## Operators
 
 | Arithmetic | Comparison | Logical |
 |---|---|---|
@@ -317,7 +316,7 @@ else:
 
 <br>
 
-### 🐛 Find the Bugs! (3 min)
+### 🐛 Find the Bugs!
 
 This code has **3 bugs**. Find them with your neighbor — first pair to find all 3 wins 🍬
 
@@ -367,7 +366,7 @@ countdown = 3
 while countdown > 0:
     print(countdown)
     countdown = countdown - 1
-print("Liftoff! 🚀")
+print("Liftoff!")
 ```
 
 <br>
@@ -394,10 +393,8 @@ for i in range(3):
 
 <br>
 
-### ✍️ Your Turn: Pick One (5 min)
-
-1. **Easy:** Print the numbers 1 to 10, but say `"BUZZ"` instead of any number divisible by 3 (hint: `%`)
-2. **Spicy:** Print this triangle using one loop:
+### ✍️ Your Turn: (5 min)
+Print this triangle using one loop:
    ```
    *
    **
@@ -478,16 +475,19 @@ y = "10"
 print(x == y)
 ```
 
-A. `True`  B. `False`  C. `10`  D. Error
+A. `True`  
+B. `False`  
+C. `10`  
+D. Error
 
 <br><br><br><br>
 
 **Q2.** Which one is a valid Python `if` statement?
 
-A. `if x > 5 then print("big")`
-B. `if (x > 5) { print("big") }`
-C. `if x > 5: print("big")`
-D. `if x > 5 print("big")`
+A. `if x > 5 then print("big")`  
+B. `if (x > 5) { print("big") }`  
+C. `if x > 5: print("big")`  
+D. `if x > 5 print("big")`  
 
 <br><br><br><br>
 
@@ -498,19 +498,28 @@ for i in range(2, 6):
     print("hi")
 ```
 
-A. 2  B. 4  C. 5  D. 6
+A. 2  
+B. 4  
+C. 5  
+D. 6
 
 <br><br><br><br>
 
 **Q4.** What is `17 % 5`?
 
-A. 3  B. 2  C. 3.4  D. 12
+A. 3  
+B. 2  
+C. 3.4  
+D. 12
 
 <br><br><br><br>
 
 **Q5.** What does `campers[1]` give you if `campers = ["Ana", "Ben", "Cleo"]`?
 
-A. `"Ana"`  B. `"Ben"`  C. `"Cleo"`  D. Error
+A. `"Ana"`  
+B. `"Ben"`  
+C. `"Cleo"`  
+D. Error
 
 <details>
 <summary>Quiz Answers</summary>
@@ -525,7 +534,7 @@ A. `"Ana"`  B. `"Ben"`  C. `"Cleo"`  D. Error
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-## Wrap-up & What's Next
+## What's Next
 
 Today you learned the building blocks of **every** programming language:
 
@@ -536,5 +545,3 @@ Today you learned the building blocks of **every** programming language:
 *  Lists 📋
 
 **Tomorrow:** Hardware, simulators, digital twins, and your first look at **ns-3** — the network simulator we'll use all week. The Python you wrote today is exactly what you'll use to drive simulations!
-
-💡 **Tonight's optional challenge:** Modify your guessing game so the *computer* guesses *your* number. Show us tomorrow! 🏆

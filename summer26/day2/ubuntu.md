@@ -4,8 +4,6 @@ Tuesday, 16 June 2026 — 111 Lampe Dr #200 · 10:45 – 11:45 AM
 
 > Goal: understand what an operating system is, why researchers run ns-3 on **Ubuntu/Linux**, meet the **terminal**, and discover that **Google Colab is secretly an Ubuntu machine** — which is how we'll run real ns-3 this afternoon without installing anything.
 
-> Format: short explanation → **you try / you predict** → discuss.
-
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## 🗳️ Warm-up (3 min)
