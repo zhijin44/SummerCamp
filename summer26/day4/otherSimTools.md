@@ -161,7 +161,11 @@ Tools for the 3D/visual side: **Unreal Engine, Unity, NVIDIA Omniverse, Blender*
 
 *Figure 3. Digital Twin — a live virtual copy of the real network: data flows up, predictions/control flow back (ref [4]).*
 
+
 ![Bi-level DT](figures/DT.png)
+
+
+> 🎥 **Watch (3 min):** [AI Model + Digital Twin + Hardware Deployment](https://www.youtube.com/watch?v=9Z81_hs0ADE)
 
 > 💬 **Vote:** What's the difference between a **smart city** and a **digital twin**?
 
@@ -224,6 +228,7 @@ In pairs, match each research goal to the **best** tool. (Some need two!)
 *  [Wireless InSite — Indoor Propagation Tutorial (Remcom)](https://www.remcom.com/resources/video/wireless-insite-indoor-propagation-analysis-tutorial)
 *  [Wireless InSite — LTE/5G NR Suburban Ray Tracing (Remcom)](https://www.remcom.com/resources/video/lte-and-5g-nr-propagation-in-a-suburban-environment-using-wireless-insite-3d-ray-tracing)
 *  [Sionna RT — Scene Creation with Blender + OpenStreetMap (NVIDIA)](https://www.youtube.com/watch?v=7xHLDxUaQ7c)
+*  [NVIDIA Aerial](https://www.youtube.com/watch?v=9Z81_hs0ADE)
 *  [An Introduction to the Open RAN Concept](https://www.youtube.com/watch?v=-fVHO_WCGF8)
 
 ## 📚 References
